@@ -1,0 +1,44 @@
+:root{
+    --main-white: white;
+    --sup-white: rgb(211, 211, 211);
+
+}
+body{
+    margin: 0 auto;
+    overflow-y: hidden;
+
+    font-family: 'Montserrat';
+}
+.head_banner{
+    width: 100%;
+    height: 100vh;
+
+    min-height: 800px;
+    max-height: 1100px;
+
+    position: relative;
+    overflow: hidden;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.head_banner_bg_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    z-index: -1;
+    filter: blur(3px);
+}
+.head_banner_title{
+    font-family: 'Times New Roman';
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--main-white);
+
+    text-align: center;
+
+    margin-top: 50px;
+}
+p{
+    color: var(--sup-white);
+}
