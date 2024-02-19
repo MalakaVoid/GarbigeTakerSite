@@ -1,0 +1,428 @@
+@media (min-width: 1024px){
+    .head_banner_title{
+        font-size: 75px;
+    }
+    .head_banner_right_title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .head_banner_right_phone_title{
+        font-size: 24px;
+    }
+    .head_banner_right_phone_number{
+        font-size: 28px;
+    }
+    .head_banner_description{
+        width: 400px;
+        font-size: 24px;
+    }
+    .head_banner_right,
+    .head_banner_left{
+        flex: 1;
+    }
+    .head_banner_left{
+        display: flex;
+    }
+    .head_banner_right{
+        padding: 0;
+    }
+    .about_us,
+    .garbige_type,
+    .containers,
+    .other,
+    .contacts{
+        margin-top: 130px;
+        padding: 20px;
+    }
+    .block_title{
+        font-size: 46px;
+        margin-bottom: 50px;
+    }
+    .about_us_card_image{
+        width: 150px;
+        height: 150px;
+    
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .about_us_card_image img{
+        width: 120px;
+        height: 120px;
+    }
+    .about_us_card_title,
+    .garbige_type_text{
+        font-size: 24px;
+    }
+    .about_us_card_description{
+        font-size: 20px;
+    }
+    .garbige_type_card_image{
+        width: 150px;
+        height: 150px;
+    
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .containers_card_image{
+        width: 420px;
+    }
+    .containers_card_text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .containers_card.devided img{
+        width: 460px;
+        min-width: 350px;
+    }
+    .containers_card_image span{
+        font-size: 24px;
+    }
+    .other_card_image{
+        max-width: 500px;
+        min-width: 360px;
+        width: 450px;
+    }
+    .other_card_image img{
+        height: 360px;
+    }
+    .other_card_description{
+        font-size: 20px;
+    }
+    .other_card_title{
+        font-size: 24px;
+    }
+    .other_card{
+        max-width: 500px;
+    }
+    .other_button{
+        font-size: 28px;
+    }
+    .contacts_number_card svg{
+        width: 40px;
+        height: 40px;
+    }
+    .contacts_number_card p{
+        font-size: 24px;
+    }
+    .contacts_coll{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .contacts_location svg{
+        width: 80px;
+        height: 80px;
+    }
+    .contacts_location p{
+        font-size: 24px;
+    }
+    footer{
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .about_us_row,
+    .garbige_type_row{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .containers_row,
+    .other_row{
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .about_us_wrapper,
+    .table_wrapper,
+    .containers_wrapper,
+    .other_wrapper{
+        gap: 60px;
+    }
+    .contacts_links{
+        gap: 20px;
+    }
+    .contacts_number_card{
+        width: 320px;
+        max-width: 350px;
+    }
+    .head_banner_right{
+        gap: 50px;
+    }
+}
+@media (max-width: 1024px){
+    .head_banner_right{
+        gap: 50px;
+    }
+    .head_banner_right_title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .head_banner_right_phone_title{
+        font-size: 24px;
+    }
+    .head_banner_right_phone_number{
+        font-size: 28px;
+    }
+    .head_banner_title{
+        font-size: 60px;
+    }
+    .head_banner_description{
+        font-size: 20px;
+        width: 330px;
+    }
+    .head_banner_left{
+        display: none;
+    }
+    .head_banner_right{
+        padding: 0 20px;
+    }
+    .head_banner_main_wrapper{
+        justify-content: center;
+        align-items: center;
+    }
+    .about_us,
+    .garbige_type,
+    .containers,
+    .other,
+    .contacts{
+        margin-top: 70px;
+        overflow-x: hidden;
+        padding: 20px;
+    }
+    .block_title{
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+    .about_us_card_image{
+        width: 130px;
+        height: 130px;
+    
+        min-width: 130px;
+        min-height: 130px;
+    }
+    .about_us_card_image img{
+        width: 100px;
+        height: 100px;
+    }
+    .about_us_card_title,
+    .garbige_type_text{
+        color: var(--main-white);
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .about_us_card_description{
+        font-size: 16px;
+    }
+    .garbige_type_card_image{
+        width: 130px;
+        height: 130px;
+    
+        min-width: 130px;
+        min-height: 130px;
+    }
+    .containers_card_image{
+        width: 320px;
+    }
+    .containers_card_text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .containers_card.devided img{
+        width: 320px;
+    }
+    .containers_card_image span{
+        font-size: 20px;
+    }
+    .other_card_image{
+        max-width: 500px;
+        width: 320px;
+    }
+    .other_card_image img{
+        height: 280px;
+    }
+    .other_card_description{
+        font-size: 16px;
+    }
+    .other_card_title{
+        font-size: 20px;
+    }
+    .other_card{
+        max-width: 400px;
+    }
+    .other_button{
+        font-size: 24px;
+    }
+    .contacts_number_card svg{
+        width: 35px;
+        height: 35px;
+    }
+    .contacts_number_card p{
+        font-size: 20px;
+    }
+    .contacts_coll{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contacts_location svg{
+        width: 60px;
+        height: 60px;
+    }
+    .contacts_location p{
+        font-size: 20px;
+    }
+    footer{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .about_us_row,
+    .garbige_type_row{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .containers_row,
+    .other_row{
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .about_us_wrapper,
+    .table_wrapper,
+    .containers_wrapper,
+    .other_wrapper{
+        gap: 60px;
+    }
+    .contacts_links{
+        gap: 20px;
+    }
+    .contacts_number_card{
+        width: 320px;
+        max-width: 350px;
+    }
+}
+@media (max-width: 768px){
+    .about_us_row,
+    .garbige_type_row{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about_us,
+    .garbige_type,
+    .containers,
+    .other,
+    .contacts{
+        margin-top: 40px;
+        overflow-x: hidden;
+    }
+    .block_title{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .about_us,
+    .garbige_type,
+    .containers,
+    .other,
+    .contacts{
+        padding: 10px;
+    }
+    .containers_row,
+    .other_row{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .about_us_wrapper,
+    .table_wrapper,
+    .containers_wrapper,
+    .other_wrapper{
+        gap: 40px;
+    }
+    .other_wrapper{
+        align-items: center;
+    }
+    .other_card_image{
+        max-width: 500px;
+        width: 320px;
+        height: 280px;
+
+        position: relative;
+    }
+    .other_card_image img{
+        position: absolute;
+        top: 0;
+        left: 50%;
+
+        transform: translateX(-50%);
+        height: 280px;
+    }
+    .contacts_coll{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .contacts_coll.mobile_order{
+        flex-direction: column-reverse;
+    }
+    .contacts_links{
+        gap: 20px;
+    }
+    .contacts_number_card{
+        width: auto;
+        max-width: none;
+    }
+    .contacts_location{
+        margin-top: 20px;   
+    }
+}
+@media (max-width: 460px){
+    .about_us_card_image{
+        width: 110px;
+        height: 110px;
+    
+        min-width: 110px;
+        min-height: 110px;
+    }
+    .about_us_card_image img{
+        width: 80px;
+        height: 80px;
+    }
+    .garbige_type_card_image{
+        width: 110px;
+        height: 110px;
+    
+        min-width: 110px;
+        min-height: 110px;
+    }
+    .containers_card_image{
+        width: 100%;
+    }
+    .containers_card_image img{
+        width: 100% !important;
+    }
+    .other_card_image{
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+
+        position: relative;
+    }
+    .other_card_image img{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .head_banner_right{
+        padding: 0 10px;
+    }
+    .head_banner_right{
+        gap: 20px;
+    }
+    .head_banner_right_title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .head_banner_right_phone_title{
+        font-size: 20px;
+    }
+    .head_banner_right_phone_number{
+        font-size: 24px;
+    }
+}
