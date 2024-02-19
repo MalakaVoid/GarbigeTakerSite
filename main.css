@@ -59,6 +59,11 @@ body{
     text-align: center;
 
 }
+.head_banner_description a{
+    text-decoration: underline;
+    color: var(--sup-white);
+    cursor: pointer;
+}
 .head_banner_main_wrapper{
     display: flex;
     min-height: 450px;
