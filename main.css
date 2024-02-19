@@ -257,7 +257,9 @@ body{
 .containers_card_image span{
     position: absolute;
     color: var(--main-white);
-    right: 0;
+
+    font-weight: 600;
+    left: 60%;
     bottom: 0;
 }
 .containers_card_text{
